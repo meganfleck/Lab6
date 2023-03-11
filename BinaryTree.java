@@ -175,9 +175,9 @@ public class BinaryTree <E extends Comparable<E>>{
 	/*
 	 * Method that gets all descendants
 	 * @author Dylan Nguyen
-	 * Order: The order of this getAllDescendant method is O(n squared).
+	 * Order: The order of this getAllDescendant method is O(n).
 	 * The reason is because in the worst case scenario as the size of the tree increases
-	 * so does the amount of recursions of both the left and right nodes.
+	 * so does the amount of recursions that occur.
 	 */
 	public ArrayList<E> getAllDescendant (E item) {
 		return getAllDescendant(root,item);
